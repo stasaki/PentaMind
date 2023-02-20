@@ -193,6 +193,20 @@ pre code {
 </ol>
 <pre class="bash"><code>conda env create -f environments/environment.yaml -n pentamind
 conda activate pentamind</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>Download pre-trained models:</li>
+</ol>
+<pre class="bash"><code>mkdir models
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-1_model.pth -P models/
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-2_model.pth -P models/
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-3_model.pth -P models/
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-4_model.pth -P models/
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-5_model.pth -P models/
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-6_model.pth -P models/
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-7_model.pth -P models/
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-8_model.pth -P models/
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-9_model.pth -P models/
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-10_model.pth -P models/</code></pre>
 </div>
 <div id="running-the-model" class="section level3">
 <h3>Running the model</h3>
@@ -221,7 +235,7 @@ conda activate pentamind</code></pre>
 </div>
 <div id="license" class="section level2">
 <h2>License</h2>
-<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
+<p>This project is licensed under the <a href="LICENSE">BSD 3-Clause License</a>. The pre-trained models provided in this code may have their own licenses or terms and conditions derived from the dataset used for training. It is your responsibility to determine whether you have permission to use the models for your use case.</p>
 </div>
 <div id="acknowledgments" class="section level2">
 <h2>Acknowledgments</h2>

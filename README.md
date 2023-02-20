@@ -30,6 +30,21 @@ conda env create -f environments/environment.yaml -n pentamind
 conda activate pentamind
 ```
 
+3. Download pre-trained models:
+```bash
+mkdir models
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-1_model.pth -P models/
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-2_model.pth -P models/
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-3_model.pth -P models/
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-4_model.pth -P models/
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-5_model.pth -P models/
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-6_model.pth -P models/
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-7_model.pth -P models/
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-8_model.pth -P models/
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-9_model.pth -P models/
+wget https://huggingface.co/stasaking/pentamind/resolve/main/models/vgg19_bn-10_model.pth -P models/
+```
+
 ### Running the model
 - Train PentaMind model
 ```bash
