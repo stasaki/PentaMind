@@ -1,10 +1,20 @@
----
-title: "Visualize the result of simulation experiment"
-output: rmarkdown::github_document
----
+Visualize the result of simulation experiment
+================
 
-```{r}
+``` r
 library(tidyverse)
+```
+
+    ## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+    ## ✔ ggplot2 3.4.1     ✔ purrr   1.0.1
+    ## ✔ tibble  3.1.8     ✔ dplyr   1.1.0
+    ## ✔ tidyr   1.3.0     ✔ stringr 1.5.0
+    ## ✔ readr   2.1.4     ✔ forcats 1.0.0
+    ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+    ## ✖ dplyr::filter() masks stats::filter()
+    ## ✖ dplyr::lag()    masks stats::lag()
+
+``` r
 library(ggsci)
 library(ggpubr)
 theme_pwas = theme_pubclean(base_size = 7,base_family = "Helvetica")
@@ -71,5 +81,6 @@ attribute_name ="size_equality"
 p_list = make_plot(p_list,attribute_name)
 
 patchwork::wrap_plots(p_list,ncol = 3)
-
 ```
+
+![](simulate_pentagon_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
