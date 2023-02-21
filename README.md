@@ -69,7 +69,7 @@ The actual intersecting pentaons images and associated labels used in this study
 This project is licensed under the [BSD 3-Clause License](LICENSE). The pre-trained models provided in this code may have their own licenses or terms and conditions derived from the dataset used for training. It is your responsibility to determine whether you have permission to use the models for your use case.
 
 ## Acknowledgments
-We would like to express our sincere thanks to all the participants who took part in ROS, MAP, MARS studies. Your contributions have been invaluable to our research, and we could not have achieved our results without your participation.
+We would like to express our sincere thanks to all the participants who took part in ROS, MAP, and MARS studies. Your contributions have been invaluable to our research, and we could not have achieved our results without your participation.
 
 We would also like to thank the machine learning community for providing easy access to pre-trained models. The availability of high-quality models has enabled us to build on previous work and make progress on our research goals.
 
