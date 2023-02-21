@@ -62,9 +62,6 @@ python functions/PentaMind-pred_ave.py --model_name vgg19_bn --model_loc models/
 ## Dataset
 The actual intersecting pentaons images and associated labels used in this study can be requested at the [RADC Resource Sharing Hub](https://www.radc.rush.edu/).
 
-## Authors
-- Shinya Tasaki
-
 ## License
 This project is licensed under the [BSD 3-Clause License](LICENSE). The pre-trained models provided in this code may have their own licenses or terms and conditions derived from the dataset used for training. It is your responsibility to determine whether you have permission to use the models for your use case.
 
