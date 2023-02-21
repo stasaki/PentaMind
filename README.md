@@ -1,6 +1,6 @@
 # PentaMind
 
-This repository contains a deep learning model for predicting cognitive performance from an image of intersecting pentagons. The model is trained on data collected at Rush Alzheimer's Disease Center and is implemented using PyTorch.
+This repository contains a deep learning model for predicting cognitive performance from an image of intersecting pentagons. The model is trained on data collected at Rush Alzheimer's Disease Center (RADC) and is implemented using PyTorch.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
