@@ -1,4 +1,4 @@
-![PyTorch Logo](https://github.com/pytorch/pytorch/blob/master/docs/source/_static/img/pytorch-logo-dark.png)
+![PentaMind Logo](https://github.com/stasaki/PentaMind/raw/main/pentamind-logo.png)
 
 --------------------------------------------------------------------------------
 
