@@ -5,7 +5,7 @@
 PentaMind is a deep learning model for predicting cognitive performance from an image of intersecting pentagons. The model is trained on data collected at Rush Alzheimer's Disease Center (RADC) and is implemented using PyTorch.
 
 ## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will get you a copy of the project up and running on your local machine for development and testing.
 
 ### Prerequisites
 Before running the code in this repository, you must have the following prerequisites installed on your system:
@@ -16,7 +16,7 @@ This repository requires an NVIDIA GPU with CUDA support to run the code. If you
 
 - Conda package manager
 
-This repository uses Conda as the package manager for managing dependencies. Conda is a cross-platform, open-source package manager that is used for scientific computing, data science, and machine learning.
+This repository uses Conda as the package manager for managing dependencies. Conda is a cross-platform, open-source package manager used for scientific computing, data science, and machine learning.
 To install Conda on your system, please follow the instructions on the [Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) website.
 
 
@@ -62,7 +62,7 @@ python functions/PentaMind-pred_ave.py --model_name vgg19_bn --model_loc models/
 
 
 ## Dataset
-The actual intersecting pentaons images and associated labels used in this study can be requested at the [RADC Resource Sharing Hub](https://www.radc.rush.edu/).
+All data in the 'data' directory is purely synthetic. It is primarily for indicating the data format. The actual intersecting pentagon images and associated labels used in this study can be requested at the [RADC Resource Sharing Hub](https://www.radc.rush.edu/).
 
 ## License
 The code of this project is licensed under the [BSD 3-Clause License](LICENSE). The pre-trained weights based on ROS/MAP/MARS studies are licensed under the Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). The pre-trained models provided in this code may have their own licenses or terms and conditions derived from the dataset used for training. It is your responsibility to determine whether you have permission to use the models for your use case.
