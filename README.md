@@ -4,6 +4,17 @@
 
 PentaMind is a deep learning model for predicting cognitive performance from an image of intersecting pentagons. The model is trained on data collected at Rush Alzheimer's Disease Center (RADC) and is implemented using PyTorch.
 
+## 📜 Link to the Paper
+
+If you're interested in the details of our research, you can read our full paper:
+
+[**Explainable deep learning approach for extracting cognitive features from hand-drawn images of intersecting pentagons**](https://www.nature.com/articles/s41746-023-00904-w)
+
+By _Tasaki, S., Kim, N., Truty, T. et al._
+
+Published in: _npj Digital Medicine volume 6, Article number: 157 (2023)_
+
+
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing.
 
