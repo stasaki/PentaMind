@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use PentaMind, please cite the paper below."
+title: "PentaMind"
+authors:
+  - family-names: Tasaki
+    given-names: Shinya
+repository-code: "https://github.com/stasaki/PentaMind"
+license: BSD-3-Clause
+preferred-citation:
+  type: article
+  title: "Explainable deep learning approach for extracting cognitive features from hand-drawn images of intersecting pentagons"
+  authors:
+    - family-names: Tasaki
+      given-names: Shinya
+    - family-names: Kim
+      given-names: Namhee
+    - family-names: Truty
+      given-names: Tim
+    - family-names: Zhang
+      given-names: Ada
+    - family-names: Buchman
+      given-names: Aron S.
+    - family-names: Lamar
+      given-names: Melissa
+    - family-names: Bennett
+      given-names: David A.
+  journal: "npj Digital Medicine"
+  volume: 6
+  start: 157
+  year: 2023
+  doi: "10.1038/s41746-023-00904-w"

@@ -24,7 +24,6 @@ import time
 import json
 import scipy.stats
 import munch
-import wandb
 import argparse
 
 #python functions/PentaMind-pred_ave.py --model_name vgg19_bn --model_loc models/vgg19_bn-1_model.pth --pheno_file data/phenotype/test.txt --image_file_dir data/images/ --output_dir results/PentaMind-pred_ave/ --batch-size 32 

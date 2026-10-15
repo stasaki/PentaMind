@@ -1,0 +1,10 @@
+# model weights: download from https://huggingface.co/stasaking/pentamind
+models/
+models_fp16/
+models_fp16_parts/
+*.pth
+*.tar.gz
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/

@@ -1,0 +1,9 @@
+# for pentamind_predict.py (Python >= 3.9)
+torch>=1.13
+torchvision>=0.14
+numpy
+pandas
+pillow
+huggingface_hub
+# optional: only for --n_tta > 1 (test-time augmentation)
+imgaug
